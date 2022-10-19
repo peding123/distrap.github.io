@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#produk {
+    padding-top: 5rem;
+}
+
+.img-diskon {
+    height: 300px;
+}

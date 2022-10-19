@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="IMG/logo.png" alt="Bootstrap" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promo">Promo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produk">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#diskon">Diskon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Hubungi
+                            kami</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide pt-5" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="IMG/acer.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="IMG/asus.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="IMG/lenovo.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel -->
+
+    <!-- Jumbotron -->
+    <section id="promo">
+        <div class="p-5 mb-4 bg-dark text-bg-dark">
+            <div class="container py-5">
+                <h1 class="display-5 fw-bold">Promo!!!</h1>
+                <p class="col-md-8 fs-4">Kami menghadirkan bebearapa produk dengan diskon hingga 50%. Ayo beli sekarang,
+                    kesempatan terbatas!!!</p>
+                <a href="#produk"><button class="btn btn-primary btn-lg" type="button">Beli Sekarang!!!</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- Jumbotron -->
+
+    <!-- Card -->
+    <section id="produk">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <h1 class="text-center">Produk</h1>
+                <div class="card mx-4 my-4" style="width: 18rem;">
+                    <img src="IMG/1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus StudioBook ProArt</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the
+                            card's content.</p>
+                        <a href="https://www.tokopedia.com/richline/asus-proart-studiobook-pro-17-w700g1t-av047r-e-2276m-32gb-512gb-w10p?extParam=ivf%3Dfalse%26src%3Dsearch"
+                            target="_blank" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="card mx-4 my-4" style="width: 18rem;">
+                    <img src="IMG/2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Acer Swift 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the
+                            card's content.</p>
+                        <a href="https://www.tokopedia.com/nicelectro/acer-swift-3-sf314-54g-i5-8250u-mx150-4gb-ram-1tb-hdd-full-hd?extParam=ivf%3Dfalse&src=topads"
+                            target="_blank" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="card mx-4 my-4" style="width: 18rem;">
+                    <img src="IMG/3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo Yoga Slim 7i Pro</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the
+                            card's content.</p>
+                        <a href="https://www.tokopedia.com/lenovoyogaofficial/lenovo-yoga-slim-7i-pro-14-2-8k-i5-11300-16gb-512ssd-mx450-2g-ips-bvid-light-silver?extParam=ivf%3Dfalse&src=topads"
+                            target="_blank" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Card -->
+
+    <!-- Tabel -->
+    <div id="diskon">
+        <div class="container py-4">
+            <h1 class="text-center fw-bold pb-4">Diskon!!!</h1>
+            <div class="row align-items-center">
+                <div class="col d-flex justify-content-center">
+                    <img src="img/1.png" class="img-diskon" alt="">
+                </div>
+                <div class="col-xl-8">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Brand</th>
+                                <th scope="col">Tipe Laptop</th>
+                                <th scope="col">Diskon!!!</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Acer</td>
+                                <td>Acer Swift 5</td>
+                                <td>50%</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Asus</td>
+                                <td>ROG Zephyrus G14</td>
+                                <td>20%</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>MSI</td>
+                                <td>MSI Modern 15</td>
+                                <td>40%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tabel -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+    <!-- Footer -->
+    <div class="bg-dark text-bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm text-center">
+                    <div class="">
+                        <div class="container pt-5 pb-2">
+                            <h1 class="display-6 fw-bold">Custom jumbotron</h1>
+                            <p class="fs-6">Using a series of utilities, you can create this jumbotron, just like
+                                the
+                                one in
+                                previous versions of Bootstrap. Check out the examples below for how you can remix
+                                and
+                                restyle
+                                it to
+                                your liking.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="mb-4">
+                        <div class="container pt-5 pb-2">
+                            <h1 class="display-6 fw-bold">Custom jumbotron</h1>
+                            <p class="fs-6">Using a series of utilities, you can create this jumbotron, just like
+                                the
+                                one in
+                                previous versions of Bootstrap. Check out the examples below for how you can remix
+                                and
+                                restyle
+                                it to
+                                your liking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
